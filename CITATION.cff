@@ -1,0 +1,53 @@
+# -----------------------------------------------------------
+# CITATION file created with {cffr} R package, v0.3.0
+# See also: https://docs.ropensci.org/cffr/
+# -----------------------------------------------------------
+ 
+cff-version: 1.2.0
+message: 'To cite package "rchive" in publications use:'
+type: software
+license: MIT
+title: 'rchive: A Simple Interface For The Internet Archive'
+version: 0.0.0.9000
+abstract: Check if a webpage exists in the Internet Archive's Wayback Machine, and
+  add it if it doesn't.
+authors:
+- family-names: Durbin
+  given-names: Lee
+  email: l.d.durbin@gmail.com
+repository-code: https://github.com/lddurbin/rchive
+url: https://github.com/lddurbin/rchive
+contact:
+- family-names: Durbin
+  given-names: Lee
+  email: l.d.durbin@gmail.com
+references:
+- type: software
+  title: testthat
+  abstract: 'testthat: Unit Testing for R'
+  notes: Suggests
+  authors:
+  - family-names: Wickham
+    given-names: Hadley
+    email: hadley@posit.co
+  year: '2023'
+  url: https://CRAN.R-project.org/package=testthat
+  version: '>= 3.0.0'
+- type: software
+  title: cli
+  abstract: 'cli: Helpers for Developing Command Line Interfaces'
+  notes: Imports
+  authors:
+  - family-names: Csárdi
+    given-names: Gábor
+    email: csardi.gabor@gmail.com
+  year: '2023'
+- type: software
+  title: httr2
+  abstract: 'httr2: Perform HTTP Requests and Process the Responses'
+  notes: Imports
+  authors:
+  - family-names: Wickham
+    given-names: Hadley
+    email: hadley@rstudio.com
+  year: '2023'
