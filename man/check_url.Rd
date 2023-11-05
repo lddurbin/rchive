@@ -2,12 +2,14 @@
 % Please edit documentation in R/functions.R
 \name{check_url}
 \alias{check_url}
-\title{Check That Webpage Exists In Wayback Machine}
+\title{Check That A Webpage Exists In The Wayback Machine}
 \usage{
-check_url(url)
+check_url(url, message = TRUE)
 }
 \arguments{
 \item{url}{A string containing the URL to the webpage.}
+
+\item{message}{Print friendly messages to the console? Default is \code{TRUE}.}
 }
 \value{
 If request is successful (i.e. the request was successfully performed
@@ -15,7 +17,7 @@ and a response with HTTP status code <400 was recieved), an HTTP response;
 otherwise throws an error.
 }
 \description{
-Check That Webpage Exists In Wayback Machine
+Check That A Webpage Exists In The Wayback Machine
 }
 \examples{
 # Check that the CRAN homepage is in the Wayback Machine:

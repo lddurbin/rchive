@@ -15,4 +15,5 @@ RoxygenNote: 7.2.1
 URL: https://github.com/lddurbin/rchive
 BugReports: https://github.com/lddurbin/rchive/issues
 Imports: 
+    cli,
     httr2
