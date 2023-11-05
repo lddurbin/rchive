@@ -3,7 +3,8 @@ Title: A Simple Interface For The Internet Archive
 Version: 0.0.0.9000
 Authors@R: 
     person("Lee", "Durbin", , "l.d.durbin@gmail.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
+Description: Check if a webpage exists in the Internet Archive's Wayback Machine,
+  and add it if it doesn't.
 License: MIT + file LICENSE
 Suggests: 
     testthat (>= 3.0.0)
